@@ -1,0 +1,11 @@
+body{
+    background-color:aliceblue;
+}
+
+table thead{
+    background-color: cadetblue;
+}
+
+tr{
+    text-align: center;
+}
