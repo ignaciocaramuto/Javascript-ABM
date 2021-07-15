@@ -24,7 +24,7 @@ const nombreEditar = document.getElementById('editarNombre')
 const apellidoEditar = document.getElementById('editarApellido')
 const telefonoEditar = document.getElementById('editarTelefono')
 
-//Metodos ABM
+//Funciones ABM
 const crearContacto = (nombre, apellido, telefono) =>{
     const contacto = new Contacto(id, nombre, apellido, telefono)
     contactos.push(contacto)
@@ -78,7 +78,7 @@ cuerpoDeLaTabla.addEventListener('click', (evento) => {
     }
 })
 
-//Metodo para mostrar la tabla
+//Funcion para mostrar la tabla
 const renderizarTabla = () => {
     cuerpoDeLaTabla.innerHTML = ''
     contactos.forEach(contacto => {
